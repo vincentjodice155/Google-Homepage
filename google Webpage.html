@@ -1,10 +1,11 @@
 <head>
     <title>Google Homepage</title>
+    <link rel="stylesheet" href="Google Webpage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   
   <body>
     <header>
-      <link rel="stylesheet" href="Google Webpage.css">
       <!-- sign in, gmail, and images button on top -->
       <nav>
         <ul id="nav_bar">
@@ -16,22 +17,28 @@
     </header>  
     
     <!-- old image of google -->  
-    <div class="google">
+    <div class="google text-center">
       <a href="#" id="google_logo"><img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0008/7692/brand.gif?itok=GN-_aU_i" alt=" photo google-logo_zpspkcztsjo.png"/></a>
     </div>
     
     <!-- Google Search Bar -->  
     <div class="form">  
-      <form>
+      <form method="POST">
         <label for="form-search"></label>
-        <input type="text" id="form-search" placeholder="Search Google">
+        <input class="form-search" type="text" id="form-search" placeholder="Search Google">
       </form>
     </div>  
     
     <!-- Search and I'm feeling lucky button -->
-    <div class= "buttons">  
-      <input type="submit" value="Google Search" id="google_search">
-      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    <div class= "btn text-center buttons">
+      <div class="row">
+        <div class="col-xs-3">  
+          <input type="submit" value="Google Search" id="google_search">
+        </div>
+        <div class="col-xs-3">
+          <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+        </div>
+      </div>
     </div>
       
     <!-- Bottom of Google page -->

@@ -55,7 +55,6 @@ body {
   
   /* Area with google image */
   .google #google_logo {
-    text-align: center;
     display: block;
     margin: 0 auto;
     clear: both;
@@ -78,9 +77,10 @@ body {
   }
   
   .buttons {
-    text-align: center;
     padding-top: 30px;
     margin-bottom: 300px;
+
+
   }
   
   /* Footer CSS */
